@@ -9,14 +9,9 @@ a.navbar-brand {
 }
 div.jumbotron-fluid {
     height: 128px;
-    /*position: relative;*/
-    /*background-color: #CEF6F5;*/
-
 }
 div.jumbotron-fluid > div.container {
     position: absolute;
-
-    /*bottom: 35px;*/
 }
 div.jumbotron-fluid > div.container > a > img {
     width: 150px;
@@ -44,6 +39,9 @@ div.card, div.card5, div.card6, div.card7 {
     float: left;
     margin-left: 70px;
     margin-right: 80px;
+}
+div.card5, div.card6, div.card7 {
+    margin-top : -50px;
 }
 div.card8 {
     width: 16rem;
@@ -111,10 +109,9 @@ li.list-group-item {
     border: 2px;
     height: 55px;
 }
-li.list-group-item b {
+li.list-group-item.b {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 27px;
-    font-weight: bold;
     letter-spacing: 7px;
 }
 ul > li {
@@ -157,4 +154,52 @@ div.moto > a {
     letter-spacing: 2px;
     width: 100px;
     margin-top: 3px;
+}
+div.container5 {
+    margin: 60px 0 120px 80px;
+}
+div.container5 > p {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 30px;
+    margin-right: 50px;
+}
+div.container5 > div.detail {
+    margin-right: 150px;
+}
+div.container5 > div.detail > p {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 30px;
+}
+div.container5 > div.detail > img {
+    text-align: right;
+    width: 600px;
+    height: 330px;
+    margin: -70px 50px 50px 150px;
+}
+div.container5 > div.why {
+    margin-right: 150px;
+}
+div.container5 > div.why > p {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 30px;
+}
+div.container5 > div.why > img {
+    text-align: right;
+    width: 600px;
+    height: 350px;
+    margin: -20px 50px 50px 100px;
+}
+div.cards {
+    float: left;
+    margin: 150px 120px 0 100px;
+    text-align: center;
+}
+div.cards > img {
+    width: 13rem;
+    height: 13rem;
+}
+div.card-body > p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
 }
